@@ -192,7 +192,7 @@ db.products.insertMany([
 
 //3.Find the product price which are not between 400 to 600
 
-        db.products.find({ product_price: { $gt: 400, $lt: 800 } })
+        db.products.find({ product_price: { $gt: 400, $lt: 600 } })
 
 //4.List the four product which are grater than 500 in price 
 
